@@ -72,7 +72,7 @@ async def start_command(client: Client, message: Message):
             except BaseException:
                 return
         temp_msg = await message.reply("😈")
-                 = await message.reply("<code>HelLow</code>")
+        temp_msg = await message.reply("<code>HelLow</code>")
         try:
             messages = await get_messages(client, ids)
         except BaseException:
